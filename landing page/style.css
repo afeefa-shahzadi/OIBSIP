@@ -1,0 +1,97 @@
+
+body {
+    background-image: url('image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+p {
+    font-family: verdana;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+header .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header .navbar a:hover {
+    background-color: #9d9c77;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+}
+
+main .bg {
+    background-color: black;
+    opacity: 0.3;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   backdrop-filter: blur(15px);
+}
+
+.info {
+    display: flex;
+    color: white;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    position: absolute;
+}
+
+.info .info-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.info .info-left img {
+    width: 90%;
+    height: 100%;
+    
+}
+
+.info .info-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+    width: 70%;
+}
+
+.info .info-right button{
+    width: fit-content;
+    margin-right: 50%;
+}
+.info .info-right button a{
+    text-decoration: none;
+}

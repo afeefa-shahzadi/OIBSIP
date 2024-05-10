@@ -1,0 +1,133 @@
+body{
+    margin: 0%;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black
+}
+.navbar-left{
+    padding: 20px;
+}
+.navbar-right{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a{
+    padding: 10px;
+    margin: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: url(https://img1.etsystatic.com/060/0/5722874/il_fullxfull.762386799_rbnk.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    
+}
+.home-left{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 29px;
+}
+.home-right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   .home-right img{
+    
+    width: fit-content;
+    height: 65%; 
+    border-radius: 35px; 
+}
+.responsive {
+        position: relative;
+        overflow: hidden;
+        width: 300px; /* adjust as needed */
+        height: 200px; /* adjust as needed */
+      }
+      
+.responsive img {
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+      }
+      
+      .responsive img:hover {
+        transform: scale(1.1); /* Adjust the scaling factor to make the image bigger */
+      }
+.text{
+    background-image: url(https://th.bing.com/th/id/R.cc2fe4854196a7abe6492a029ec74365?rik=KEleXVlhSAzbIw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2frkaqCjY.jpg&ehk=MlJAzcprtbc22rotlGSwcp0PWopNEXJd4wGYL5lqyN8%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.services {
+    padding: 50px;
+    text-align: center;
+}
+.ser-h1 {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(https://th.bing.com/th/id/R.cc2fe4854196a7abe6492a029ec74365?rik=KEleXVlhSAzbIw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2frkaqCjY.jpg&ehk=MlJAzcprtbc22rotlGSwcp0PWopNEXJd4wGYL5lqyN8%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-style: italic;
+}
+.services-sub-cont {
+    display: flex;
+    flex-direction: row;
+
+}
+.services-card {
+    border: 2px rgb(167, 203, 47) solid;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
+.sc-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.sc-p {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.contact {
+    text-align: center;
+}
+.contact-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.test-logo {
+    height: 50px;
+}
+.social-icon-img {
+    height: 50px;
+    padding: 20px;
+}
